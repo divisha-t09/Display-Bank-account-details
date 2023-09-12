@@ -2,7 +2,7 @@
 
 This is a simple C++ program that simulates a basic bank account management system. It allows you to create a bank account, input customer information, and display the account details.
 
-Features:-
+## Features:-
 Create a bank account with the following details:
 -Customer name (without spaces)
 -Account number
@@ -10,14 +10,14 @@ Create a bank account with the following details:
 -Initial balance
 Display account details, including customer name, account number, account type, and current balance.
 
-How to Use:-
+## How to Use:-
 1. Clone this repository to your local machine or download the main.cpp file.
 
 2. Compile the code using a C++ compiler. For example, you can use the g++ compiler as follows:
-__ g++ main.cpp -o bank_account __
+`g++ main.cpp -o bank_account`
 
 3. Run the program:
-__ ./bank_account __
+`./bank_account`
 
 4. Follow the on-screen prompts to:
 -Enter the customer name (without spaces).
@@ -29,5 +29,5 @@ __ ./bank_account __
 
 6. You can further modify the program to include additional features like deposits and withdrawals.
 
-Note:-
+## Note:-
 This program is a simple demonstration of basic object-oriented programming principles in C++. It can be expanded and enhanced to include more advanced banking operations. The program uses the fflush(stdin) function to clear the input buffer. Note that this method is not entirely portable, and there may be better ways to handle input validation and buffer clearing in C++.
